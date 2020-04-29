@@ -11,5 +11,10 @@ function setup(){
 
 function draw(){
   background(204);
-  ellipse(width/2, height/2, 50,50);
+  fill(random(255),random(255),random(255));
+  ellipse(mouseX, mouseY, 50,50);
+  //if (mouseClicked()){
+  //  fill(0)
+  //}
+
 }
